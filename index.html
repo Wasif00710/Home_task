@@ -10,6 +10,23 @@
             background-color: rgba(173, 216, 230, 0.5); /* Sets the background color to light blue with 50% transparency */
             font-family: Arial, sans-serif; /* Sets a default font style for the body */
             color: black; /* Sets the text color to black */
+            text-align: center; /* Centers text alignment for the body */
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            display: block; /* Ensures the image is centered */
+            margin: 0 auto; /* Centers the image horizontally */
+        }
+        pre {
+            display: inline-block; /* Ensures preformatted text is centered */
+            background-color: #000000; 
+            padding: 10px; 
+            color: white; 
+            text-align: left; /* Keeps the text aligned to the left inside the block */
+        }
+        a {
+            color: blue; /* Styles the hyperlink color */
         }
     </style>
 </head>
@@ -17,7 +34,7 @@
 <body>
 
     <!-- Header 1 -->
-  <h1> <mark>About Myself</mark></h1> <!-- h1 is the largest heading, text color is black due to the body color mark highlights text headinhg-->
+    <h1> <mark>About Myself</mark></h1> <!-- h1 is the largest heading, text color is black due to the body color mark highlights text heading -->
 
     <!-- Header 2 -->
     <h2>Introduction</h2> <!-- h2 is the second largest heading -->
@@ -34,7 +51,7 @@
     <!-- Paragraph with emphasized text -->
     <p>
         In my free time, I enjoy <em>reading</em>, <i>coding</i>, and <mark>MARK</mark> to new places.
-    </p> <!-- em and i both italicize text; mark highlights text-->
+    </p> <!-- em and i both italicize text; mark highlights text -->
 
     <!-- Header 4 -->
     <h4>My Favorite Programming Languages</h4> <!-- h4 is the fourth largest heading -->
@@ -55,7 +72,7 @@
 
     <!-- Link to an email with target="_blank" to open in a new tab -->
     <p>
-        Feel free to <a href="mailto:wasif22205101955@gmail.com" target="_blank" style="color: blue;">Email me</a> if you would like to get in touch!
+        Feel free to <a href="mailto:wasif22205101955@gmail.com" target="_blank">Email me</a> if you would like to get in touch!
     </p> <!-- a creates a hyperlink, styled in blue for better visibility against the background -->
 
     <!-- Header 6 -->
@@ -65,12 +82,9 @@
     <img src="https://github.com/Wasif00710/MYSELF/blob/main/IMG_5687.png" alt="A picture of Wasikur Chowdhury Wasif" style="width:200px;height:auto;"> <!-- img displays an image -->
 
     <!-- Preformatted text block -->
-    <pre style="background-color: #000000; padding: 10px; color: white;">
+    <pre>
     // Code Example
-    <br>
-        print('Hello, world!')
-    <br>
-
+    print('Hello, world!')
     </pre> <!-- pre preserves whitespace and formatting, often used for code -->
 
     <!-- Paragraph with additional text styles -->
